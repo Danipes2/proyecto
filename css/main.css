@@ -1,0 +1,229 @@
+
+
+.switch-candy  {
+    max-width: 600px;
+}
+
+
+.unmask {
+    background: url("../img/eye.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 20px;
+    left: -10px;
+    margin-left: -28px;
+    position: relative;
+    top: 2px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.wrap {
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    padding: 15px 15px 15px 40px;
+    width: 600px;
+    transition: 2s all;
+}
+
+.required:after {
+    color: red;
+    content: "*";
+    /*margin-left: 10px;*/
+}
+
+
+
+#git {
+    background: none repeat scroll 0 0 #ddd;
+    left: -125px;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+}
+
+
+
+
+#git a {
+    background: url("../images/791eedb8.git.png") no-repeat scroll 0 16px rgba(0, 0, 0, 0);
+    display: block;
+    height: 74px;
+    padding-left: 55px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+#git a h3 {
+    margin: 19px 10px 10px;
+}
+
+#git a:hover h3 {
+    color: #828080;
+}
+
+h3 {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px;
+    text-align: center;
+}
+
+input {
+    display: block;
+}
+
+.passinfo {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+#success {
+    text-align: center;
+}
+
+input, select {
+    border: medium none;
+    color: #333;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 10px;
+    width: 90%;
+    display: inline-block;
+    border-radius: 10px;
+   
+}
+
+.center {
+    text-align: center;
+}
+
+.paginate {
+    background: none repeat scroll 0 0 #c2e876;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: 10px 10px 10px #888;
+    color: #777;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+}
+
+.paginate:hover {
+    background: #ddd;
+}
+
+
+.wrap label {
+        background: none repeat scroll 0 0 #f28080;
+    border-top: 4px solid #db3636;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    position: relative;
+    top: -18px;
+    left: -9px;
+    width: 90%;
+    color: #333;
+    border-radius: 0 0 10px 10px;
+}
+
+.withmargin {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 960px) {
+
+
+body {
+    
+    font-size: 14px;
+}
+
+    #git {
+        left: 0;
+        padding: 0;
+        position: static;
+        top: 0;
+        transform: none;
+    }
+
+   
+    #git a {
+        background: url("../images/791eedb8.git.png") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+        display: block;
+        height: 39px;
+        padding-bottom: 20px;
+        padding-left: 54px;
+        padding-top: 5px;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 20px;
+        
+    }
+
+    #git a h3 {
+        margin: 19px 10px 10px;
+    }
+
+
+    .wrap {
+        background: none repeat scroll 0 0 #eee;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        display: block;
+        margin: 20px auto;
+        padding: 15px;
+        transition: none 0s ease 0s ;
+        width: auto;
+    }
+
+
+    input, select {
+        border: medium none;
+        border-radius: 10px;
+        color: #333;
+        display: inline-block;
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 10px;
+        width: 80%;
+    }
+
+    #refered {
+        width: 100%;
+    }
+
+
+.wrap label {
+    background: none repeat scroll 0 0 #f28080;
+    border-radius: 0 0 10px 10px;
+    border-top: 4px solid #db3636;
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    position: relative;
+    top: -15px;
+    width: 80%;
+}
+
+
+.switch-toggle input {
+    opacity: 0;
+    position: absolute;
+    width: 20px;
+}
+    
+}
